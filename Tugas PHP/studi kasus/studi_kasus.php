@@ -20,9 +20,9 @@ if ($nilai_Toni >= $Kmm_nilai) {
 }
 
 
-if ($nilai_Budi >= $nilai_Toni){
+if ($nilai_Budi > $nilai_Toni){
     echo "Nilai Budi lebih besar daripada nilai Toni <br>";
-} else if ($nilai_Budi <= $nilai_Toni) {
+} else if ($nilai_Budi < $nilai_Toni) {
     echo "Nilai Toni lebih besar daripada nilai Toni <br>";
 } else {
     echo "Nilai Budi sama dengan Nilai Toni <br>";
